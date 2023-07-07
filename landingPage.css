@@ -1,8 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One', sans-serif;
+}
+.logo{
+    font-family: 'overpass';
+    font-size: 40px;
+}
 .navbar{
     background: white;
     display: flex;
     justify-content: space-between;
-    font-family: 'overpass';
+    align-items: center;
+    font-size: 25px;
+    box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.25);
+    padding: 2vh 10px;
+}
+
+.button{
+    background: #3F3F3F;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.landingPage{
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh;
+}
+.landingUpper{
+    background: linear-gradient(#d9d9d900,#D9D9D9,#000000);
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FirstHeader{
+    font-size: 4vw;
+    margin: 0 0 30px 0;
+}
+.FirstPara{
+    color: #3F3F3F;
+    font-size: 2vw;
+    text-align: center;
+    margin: 0 0 15vh 0;
+}
+.landingLower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    width: 100%;
+    background: #000000;
+}
+.boxwrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    /* height: 100%; */
+    /* background: aqua; */
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background: #D9D9D9;
+    border-radius: 10px;
 }
