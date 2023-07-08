@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.loginWrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#3f3f3f76,#3f3f3f4f,#3f3f3f29,white,white);
+}
+.loginbox{
+    display: flex;
+
+    width: 70%;
+    height: 80%;
+    background: white;
+    box-shadow: 10px 10px 10px #3f3f3f4f;
+}
+.loginimg{
+    height: 100% ;
+}
