@@ -1,7 +1,7 @@
 window.addEventListener('scroll', function() {
     const navbar = document.querySelector('.navbar');
     const scrollPosition = window.scrollY;
-    console.log(scrollPosition)
+    // console.log(scrollPosition)
     if (scrollPosition > 1500) {
       navbar.classList.add('scrolled');
     } else {
