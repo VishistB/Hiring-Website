@@ -67,7 +67,7 @@ a::after{
     box-shadow: 8px 8px 5px #3f3f3f4f;
     padding: 10px 20px;   
 }
-.smallinp{
+.Locationinp, .roleinp{
     background: white ;
     border: none;
     margin: 0 20px 0 0;
@@ -93,3 +93,18 @@ a::after{
     color: white;
     /* background-color: lightgray; */
 }
+.shortlistbtn {
+    width: 30%;
+    margin: 0 auto;
+    background-color: greenyellow ;
+    color: #3F3F3F;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  .shortlistbtn:hover {
+    background-color: #555555;
+  }
