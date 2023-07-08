@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One', sans-serif;
+    scrollbar-width: none;
+}
+a{
+    text-decoration: none ;
+}
+a::after{
+    text-decoration: none ;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.logo{
+    font-family: 'overpass';
+    font-size: 40px;
+}
+.navbar{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.25);
+    padding: 2vh 10px;
+    position: sticky;
+    top: 0%;
+}
+
+.lgoutbutton{
+    background: #DC0000;
+    color: white;
+    font-size: 15px;
+    padding: 15px 25px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+}
