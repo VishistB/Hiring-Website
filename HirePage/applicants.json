@@ -1,0 +1,236 @@
+{
+    "applicants": [
+      {
+        "name": "John Smith",
+        "location": "Delhi",
+        "job_role": "Frontend Developer",
+        "rating": 85,
+        "shortlist": true
+      },
+      {
+        "name": "Emma Johnson",
+        "location": "Mumbai",
+        "job_role": "Backend Developer",
+        "rating": 92,
+        "shortlist": false
+      },
+      {
+        "name": "David Lee",
+        "location": "Bangalore",
+        "job_role": "Data Scientist",
+        "rating": 88,
+        "shortlist": true
+      },
+      {
+        "name": "Sophia Patel",
+        "location": "Delhi",
+        "job_role": "UI/UX Designer",
+        "rating": 79,
+        "shortlist": false
+      },
+      {
+        "name": "Michael Gupta",
+        "location": "Chennai",
+        "job_role": "Full Stack Developer",
+        "rating": 90,
+        "shortlist": true
+      },
+      {
+        "name": "Olivia Kumar",
+        "location": "Mumbai",
+        "job_role": "Data Analyst",
+        "rating": 82,
+        "shortlist": false
+      },
+      {
+        "name": "William Sharma",
+        "location": "Bangalore",
+        "job_role": "DevOps Engineer",
+        "rating": 87,
+        "shortlist": true
+      },
+      {
+        "name": "Ava Verma",
+        "location": "Delhi",
+        "job_role": "Frontend Developer",
+        "rating": 78,
+        "shortlist": false
+      },
+      {
+        "name": "James Khan",
+        "location": "Mumbai",
+        "job_role": "Backend Developer",
+        "rating": 91,
+        "shortlist": true
+      },
+      {
+        "name": "Isabella Joshi",
+        "location": "Chennai",
+        "job_role": "Data Scientist",
+        "rating": 86,
+        "shortlist": false
+      },
+      {
+        "name": "Benjamin Singh",
+        "location": "Bangalore",
+        "job_role": "UI/UX Designer",
+        "rating": 80,
+        "shortlist": true
+      },
+      {
+        "name": "Mia Reddy",
+        "location": "Delhi",
+        "job_role": "Full Stack Developer",
+        "rating": 93,
+        "shortlist": false
+      },
+      {
+        "name": "Logan Malhotra",
+        "location": "Mumbai",
+        "job_role": "Data Analyst",
+        "rating": 84,
+        "shortlist": true
+      },
+      {
+        "name": "Alexander Patel",
+        "location": "Bangalore",
+        "job_role": "DevOps Engineer",
+        "rating": 89,
+        "shortlist": false
+      },
+      {
+        "name": "Ella Gupta",
+        "location": "Delhi",
+        "job_role": "Frontend Developer",
+        "rating": 77,
+        "shortlist": true
+      },
+      {
+        "name": "Daniel Verma",
+        "location": "Mumbai",
+        "job_role": "Backend Developer",
+        "rating": 90,
+        "shortlist": false
+      },
+      {
+        "name": "Madison Joshi",
+        "location": "Chennai",
+        "job_role": "Data Scientist",
+        "rating": 85,
+        "shortlist": true
+      },
+      {
+        "name": "Jackson Khan",
+        "location": "Bangalore",
+        "job_role": "UI/UX Designer",
+        "rating": 79,
+        "shortlist": false
+      },
+      {
+        "name": "Aria Sharma",
+        "location": "Delhi",
+        "job_role": "Full Stack Developer",
+        "rating": 92,
+        "shortlist": true
+      },
+      {
+        "name": "Sebastian Reddy",
+        "location": "Mumbai",
+        "job_role": "Data Analyst",
+        "rating": 83,
+        "shortlist": false
+      },
+      {
+        "name": "Lily Patel",
+        "location": "Bangalore",
+        "job_role": "DevOps Engineer",
+        "rating": 88,
+        "shortlist": true
+      },
+      {
+        "name": "Jack Verma",
+        "location": "Delhi",
+        "job_role": "Frontend Developer",
+        "rating": 76,
+        "shortlist": false
+      },
+      {
+        "name": "Grace Khan",
+        "location": "Mumbai",
+        "job_role": "Backend Developer",
+        "rating": 89,
+        "shortlist": true
+      },
+      {
+        "name": "Samuel Joshi",
+        "location": "Chennai",
+        "job_role": "Data Scientist",
+        "rating": 84,
+        "shortlist": false
+      },
+      {
+        "name": "Lillian Singh",
+        "location": "Bangalore",
+        "job_role": "UI/UX Designer",
+        "rating": 81,
+        "shortlist": true
+      },
+      {
+        "name": "Victoria Malhotra",
+        "location": "Delhi",
+        "job_role": "Full Stack Developer",
+        "rating": 94,
+        "shortlist": false
+      },
+      {
+        "name": "Andrew Gupta",
+        "location": "Mumbai",
+        "job_role": "Data Analyst",
+        "rating": 83,
+        "shortlist": true
+      },
+      {
+        "name": "Nora Patel",
+        "location": "Chennai",
+        "job_role": "DevOps Engineer",
+        "rating": 87,
+        "shortlist": false
+      },
+      {
+        "name": "Henry Sharma",
+        "location": "Bangalore",
+        "job_role": "Frontend Developer",
+        "rating": 75,
+        "shortlist": true
+      },
+      {
+        "name": "Samantha Verma",
+        "location": "Delhi",
+        "job_role": "Backend Developer",
+        "rating": 91,
+        "shortlist": false
+      },
+      {
+        "name": "Joseph Joshi",
+        "location": "Mumbai",
+        "job_role": "Data Scientist",
+        "rating": 88,
+        "shortlist": true
+      },
+      {
+        "name": "Anthony Khan",
+        "location": "Chennai",
+        "job_role": "UI/UX Designer",
+        "rating": 82,
+        "shortlist": false
+      },
+      {
+        "name": "Penelope Sharma",
+        "location": "Bangalore",
+        "job_role": "Full Stack Developer",
+        "rating": 93,
+        "shortlist": true
+      }
+    ]
+  }
+  

@@ -75,3 +75,16 @@
 .inpdiv{
     margin: 20px 0;
 }
+.shortlistbtn {
+    background-color: #3F3F3F;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shortlistbtn:hover {
+    background-color: #555555;
+  }

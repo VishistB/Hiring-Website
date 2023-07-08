@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="HirePage.js"></script>
-    <link href="HirePage.css" rel="stylesheet" />
-    <title>CONQUEST</title>
-</head>
-<body>
-    <!-- navbar -->
-    <nav class="navbar">
-        <div class="leftnav">
-            <h3 class="logo">CONQUEST</h3>
-        </div>
-        <div class="rightnav">
-            <a href="#">
-                <button class="lgoutbutton">LOGOUT</button>
-            </a>
-        </div>
-    </nav>
-    <main class="HirePage">
-
-    </main>
-    <!-- Navbar end -->
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="HirePage.js"></script>
+        <link href="HirePage.css" rel="stylesheet" />
+        <title>CONQUEST</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="leftnav">
+                <h3 class="logo">CONQUEST</h3>
+            </div>
+            <div class="rightnav">
+                <a href="#">
+                    <button class="lgoutbutton">LOGOUT</button>
+                </a>
+            </div>
+        </nav>
+        <main class="HirePage">
+            <div class="middleLayout">
+                <div class="searchparam">
+                    <input
+                        type="text"
+                        class="searchinp"
+                        placeholder="Search Name"
+                    />
+                    <input
+                        type="text"
+                        class="smallinp"
+                        placeholder="Location"
+                    />
+                    <input type="text" class="smallinp" placeholder="Role" />
+                </div>
+                <div class="candidateDataWrap">
+                    <!-- <div class="databox">
+                        <div class="item" id="dataName">Name</div>
+                        <div class="item" id="dataLocation">Location</div>
+                        <div class="item"></div>
+                        <div class="item" id="dataRole">Role</div>
+                        <div class="item" id="dataRating">Rating</div>
+                        <div class="item">Shortlist</div>
+                    </div> -->
+                </div>
+            </div>
+        </main>
+        <!-- Navbar end -->
+    </body>
 </html>
