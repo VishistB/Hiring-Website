@@ -7,8 +7,8 @@
     scrollbar-width: none;
 }
 body{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    /* height: 100%; */
 }
 a{
     text-decoration: none ;
@@ -34,7 +34,7 @@ a::after{
     padding: 2vh 10px;
     position: sticky;
     z-index: 20;
-    width: 100%;
+    /* width: 100%; */
     top: 0%;
     transition: background-color 0.3s ease-in-out;
 }
@@ -267,8 +267,11 @@ a::after{
 }
 
 @media (max-width:560px){
-    .FirstHeader, .FirstPara, .lowerheader{
+    .FirstPara, .lowerheader{
         scale: 0.8;
+    }
+    .FirstHeader{
+        font-size: 2rem;
     }
     .logo, .leftnav{
         display: none;
@@ -303,7 +306,8 @@ a::after{
         margin: 0 auto;
     } */
     .FirstHeader{
-        scale: 0.5;
+        font-size: 2rem;
+        /* scale: 0.5; */
     }
     .lowerheader{
         scale: 0.5;
@@ -317,6 +321,6 @@ a::after{
     }
     .setoneimg, .settwoimg{
         scale: 0.8;
-        width: 200px;
+        width: 300px;
     }
 }
