@@ -1,11 +1,11 @@
 #CONQUEST
--An HR recruitment solution making the process easy and effortless.
--StudyMonk Assignment
+- An HR recruitment solution making the process easy and effortless.
+- StudyMonk Assignment
 
 #Tech Stack
--HTML
--CSS
--Javascript
+- HTML
+- CSS
+- Javascript
 
 #Description
 This project consists of the following pages:-
