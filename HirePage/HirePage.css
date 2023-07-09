@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Krona One', sans-serif;
-    /* scrollbar-width: none; */
+    scrollbar-width: none;
+    overflow: hidden;
 }
 a{
     text-decoration: none ;
@@ -30,6 +31,7 @@ a::after{
     padding: 2vh 10px;
     position: sticky;
     top: 0%;
+    z-index: 20;
 }
 
 .lgoutbutton{
@@ -45,18 +47,46 @@ a::after{
 
 .HirePage{
     display: flex;
-    background: #D9D9D9;
+    /* background: #D9D9D9; */
+    background: url('../assets/blobbg.svg');
+    background-position: fixed;
     /* background-color: #DC0000; */
     min-height: 100vw;
     width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+
+}
+.overlay{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* backdrop-filter: blur(10px); */
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.LeftLayout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
 }
 .middleLayout{
-    width: 80%;
+    width: 70%;
     min-height: 100vh;
-    margin: 50px auto;
+    margin: 10px 20px;
+}
+.slcandidateswrap{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 18%;
+    margin: 0 auto;
+}
+.ShortlistedCandidates{
+    width: 80%;
+    margin: 20px auto
 }
 .searchparam{
-    margin: 50px 0 30px 0;
+    margin: 40px 0 30px 0;
 }
 .searchinp{
     background: white ;
@@ -77,6 +107,10 @@ a::after{
     width: 200px;
     padding: 10px 20px;
 }
+.candidateDataWrap{
+    overflow: auto;
+    max-height: calc(100vh - 150px);
+}
 .databox{
     font-size: 1.5rem;
     display: grid;
@@ -84,9 +118,9 @@ a::after{
     grid-template-rows: repeat(2, auto);
     gap: 10px;
     background: #3F3F3F;
-    margin: 40px 0;
+    margin: 55px 0;
     border-radius: 5px;
-    padding: 10px 0;
+    padding: 20px 10px;
 }
 .item {
     padding: 10px;
@@ -94,17 +128,18 @@ a::after{
     /* background-color: lightgray; */
 }
 .shortlistbtn {
-    width: 30%;
+    width: 150px;
     margin: 0 auto;
     background-color: greenyellow ;
-    color: #3F3F3F;
+    color: #000000;
     font-size: 15px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.2s;
 }
   
   .shortlistbtn:hover {
-    background-color: #555555;
+    background-color: #259cb1;
   }

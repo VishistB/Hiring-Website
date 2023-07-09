@@ -17,7 +17,7 @@
     display: flex;
 
     width: 75%;
-    height: 800px;
+    height: 720px;
     background: white;
     box-shadow: 10px 10px 10px #3f3f3f4f;
 }
@@ -48,7 +48,7 @@
 .logininp{
     background: #D9D9D9 ;
     border: none;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     border-radius: 2px;
     padding: 10px 20px;
     box-shadow: 8px 8px 10px #3f3f3f4f;
@@ -74,4 +74,10 @@
 }
 .inpdiv{
     margin: 20px 0;
+}
+
+@media (max-width:1380px){
+    .boxleft{
+        display: none;
+    }
 }
