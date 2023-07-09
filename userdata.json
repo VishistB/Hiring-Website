@@ -1,0 +1,35 @@
+{
+    "users": [
+      {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "location": "New York",
+        "password": "pass123"
+      },
+      {
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "location": "Los Angeles",
+        "password": "password123"
+      },
+      {
+        "name": "Michael Johnson",
+        "email": "michaeljohnson@example.com",
+        "location": "Chicago",
+        "password": "testpass"
+      },
+      {
+        "name": "Emily Davis",
+        "email": "emilydavis@example.com",
+        "location": "San Francisco",
+        "password": "securepassword"
+      },
+      {
+        "name": "Alex Wilson",
+        "email": "alexwilson@example.com",
+        "location": "London",
+        "password": "pass1234"
+      }
+    ]
+  }
+  
