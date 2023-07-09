@@ -1,13 +1,13 @@
-#CONQUEST
+# CONQUEST
 - An HR recruitment solution making the process easy and effortless.
 - StudyMonk Assignment
 
-#Tech Stack
+# Tech Stack
 - HTML
 - CSS
 - Javascript
 
-#Description
+# Description
 This project consists of the following pages:-
 1. Landing page:-
    This page contains all the information about the (hypothetical/probable)
@@ -21,8 +21,8 @@ This project consists of the following pages:-
    cannot be tampered with(in JWT).
    Access to the hire feature is denied till authentication occurs.
 
-   credentials to log in-
-        "email": "johndoe@example.com",
+   credentials to log in-<br>
+        "email": "johndoe@example.com",<br>
         "password": "pass123"
 
 3. HIRE/SHORTLISTED pages:-
@@ -31,4 +31,8 @@ This project consists of the following pages:-
    already.
    The Shortlisted Page on the other hand renders only names of those who have been shortlisted.
    One thing to note is that when the SHORTLIST button is clicked the data is not permanently changed in the json file so on
-   reloading page it will get restored. 
+   reloading page it will get restored.
+   
+# Links
+   - Figma: https://www.figma.com/file/Hxs8skWfVDljrmEkKGwwBc/Conquest?type=design&node-id=0%3A1&mode=design&t=zE2EBNgmw9NmnMbk-1
+   - Deployed Website: https://vishistb.github.io/Hiring-Website/
