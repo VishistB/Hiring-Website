@@ -18,7 +18,12 @@ This project consists of the following pages:-
    A slight variation of one another, out of which register page contains two additional input fields to store information.
    The login page however is far more functional. If credentials from userdata.json is entered into the login the user credentials
    are stored in the LOCAL STORAGE. This mimicks the technique of JWT authentication where, after login a token is locally stored which
-   cannot be tampered with.
+   cannot be tampered with(in JWT).
+   Access to the hire feature is denied till authentication occurs.
+
+   credentials to log in-
+        "email": "johndoe@example.com",
+        "password": "pass123"
 
 3. HIRE/SHORTLISTED pages:-
    The Hire page fetches all the data from the json applicants.json file inside HirePage folder and renders only those which have

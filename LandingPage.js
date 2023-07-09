@@ -42,4 +42,23 @@ window.addEventListener('scroll', function() {
         s2para.style.transform='translateX(0)'
     }
   });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const getStartedButton = document.getElementById('getStartedbtn');
+  
+    const loggedInUser = localStorage.getItem('loggedInUser');
+  
+    if (loggedInUser) {
+      
+      getStartedButton.addEventListener('click', function() {
+        window.location.href = './HirePage/HirePage.html';
+      });
+    } else {
+      
+      getStartedButton.addEventListener('click', function() {
+        window.location.href = './Loginpage/Login.html';
+      });
+    }
+  });
+  
   
