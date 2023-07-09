@@ -87,11 +87,7 @@ a::after{
 }
 .ShortlistedCandidates{
     width: 80%;
-    margin: 20px auto;
-    transition: 0.5s;
-}
-.ShortlistedCandidates:hover{
-    scale: 1.1;
+    margin: 20px auto
 }
 .searchparam{
     margin: 40px 0 30px 0;
